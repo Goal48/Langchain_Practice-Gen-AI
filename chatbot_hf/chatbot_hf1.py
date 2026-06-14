@@ -4,10 +4,13 @@ import os
 
 load_dotenv()
 
+# Change this line:
+token = os.getenv("HUGGINGFACEHUB_ACCESSS_TOKEN") 
+
+# And pass it directly to the endpoint to be safe:
 llm = HuggingFaceEndpoint(
-   repo_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    repo_id="meta-llama/Meta-Llama-3-8B-Instruct",  # Supported modern model
     task="text-generation"
-    
 )
 
 model = ChatHuggingFace(llm=llm)
