@@ -23,7 +23,7 @@ input_text = st.text_input("Search a topic you want")
 
 ## Google Gemini Model
 # It automatically reads GOOGLE_API_KEY from the environment
-model = Ollama(model="llma2")  ## You have to install the model in the local sysytem "ollama run gemma"
+model = Ollama(model="llama3.2:1b")  ## You have to install the model in the local sysytem "ollama run gemma"
 
 parser = StrOutputParser()
 
