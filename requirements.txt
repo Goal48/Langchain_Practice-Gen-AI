@@ -36,3 +36,5 @@ sse_starlette
 bs4
 chromadb
 ## faiss-cpu
+Wikipedia
+# arxiv
