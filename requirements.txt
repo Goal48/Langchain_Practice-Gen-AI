@@ -38,3 +38,4 @@ chromadb
 ## faiss-cpu
 Wikipedia
 # arxiv
+langchainhub
