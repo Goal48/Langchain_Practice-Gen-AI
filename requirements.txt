@@ -39,3 +39,4 @@ chromadb
 Wikipedia
 # arxiv
 langchainhub
+# pydantic
