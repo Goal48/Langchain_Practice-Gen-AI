@@ -6,7 +6,7 @@ from langchain_core.output_parsers import StrOutputParser
 from dotenv import load_dotenv
 
 load_dotenv()
-# 
+
 llm = OllamaLLM(model = "llama3.2:1b") 
 
 template1 = PromptTemplate(
