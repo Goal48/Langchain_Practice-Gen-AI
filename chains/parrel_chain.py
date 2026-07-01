@@ -14,7 +14,7 @@ prompt1 = PromptTemplate(
     input_variables=['topic']
 )
 prompt2 = PromptTemplate(
-    template="write 10 question and answer of the {topic}",
+    template="write 5 question and answer of the {topic}",
     input_variables=['topic']
 )
 # Ensure both the template string and input_variables use 'quiz'
