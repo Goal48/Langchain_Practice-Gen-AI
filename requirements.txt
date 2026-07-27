@@ -40,3 +40,6 @@ Wikipedia
 # arxiv
 langchainhub
 # pydantic
+
+# YT vedio Analysis
+youtube-transcript-api
